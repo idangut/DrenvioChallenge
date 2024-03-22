@@ -1,0 +1,31 @@
+{
+  "name": "drenvio",
+  "version": "1.0.0",
+  "description": "practical test",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "cross-env NODE_ENV=test jest --watchAll --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "nonde"
+  ],
+  "author": "Andres Gutierrez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "mongoose": "^8.2.3",
+    "supertest": "^6.3.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
